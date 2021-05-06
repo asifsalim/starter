@@ -1,21 +1,22 @@
-/*
-COLORS
+//Abstract Folder with Files
+@import "abstract/variable";
+@import "abstract/mixins";
+@import "abstract/function";
 
-Primary: #eb2f64
-Primary light: #FF3366
-Primary dark: #BA265D
+// Base Folder with Files
+@import "base/base";
+@import "base/animation";
+@import "base/typography";
+@import "base/utilities";
 
-Grey light 1: #faf9f9
-Grey light 2: #f4f2f2
-Grey light 3: #f0eeee
-Grey light 4: #ccc
+//Components Folder with Files
+@import "components/button";
 
-Grey dark 1: #333
-Grey dark 2: #777
-Grey dark 3: #999
+//Layout Folder with Files
+@import "layout/header";
 
-*/
+//Pages Folder with Files
+@import "pages/home";
 
-@import "base";
-@import "layout";
-@import "components";
+
+
