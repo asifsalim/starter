@@ -1,3 +1,24 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+
+    @include response (Tablet){
+        font-size: 50%;
+    }
+
+    @include response (Mobile){
+        font-size: 40%;
+    }
+}
+
 body{
-    background-color:orangered;
+    background-color: $color-body;
 }
